@@ -1,0 +1,103 @@
+
+ 
+ .hero-container {
+        position: relative;
+        right: 1vw;
+        min-height: 88vh;
+        min-width: 100vw;
+        background: url("images/hero-bg.jpg") no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+ }
+
+
+ .hero-text {
+     color: rgb(248, 247, 239);
+     font-weight: 600;
+     font-size: 80px;
+     padding-top: 15%;
+     font-family: lobster;
+
+ }
+ 
+
+ .hero-para{
+    color: rgb(216, 215, 211);
+    font-weight: 600;
+    font-size: 250%;
+    padding-top: 2%;
+    font-family: lobster;
+
+ }
+
+ .logo {
+     position: relative;
+     top: 20vh;
+ }
+
+ .blog-container {
+     padding-top: -1vh;
+     padding-bottom: 10vh;
+     width: 100vw;
+     background: #EFEFBB;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #D4D3DD, #EFEFBB); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+ }
+
+ 
+
+ .nav-item {
+     padding-left: 20px;
+     font-size: 20px;
+ }
+
+ .navbar-brand {
+     font-family: lobster;
+ }
+
+
+ .content {
+     padding: 2%;
+     font-family: lobster;
+     font-size: 400%;
+     color: rgba(95, 92, 92, 0.973);
+ }
+
+ .blog-header {
+     padding-top: 4%;
+     padding-bottom: 3%;
+ }
+
+ .card {
+     margin-bottom: 10%;
+     margin-right: 25px;
+     transition: 1s ;
+     text-decoration: none;
+ }
+
+ .card:hover {
+     transform: scale(1.15, 1.15);
+     text-decoration: none;
+ }
+
+
+ .footer {
+     padding-bottom: 10px;
+     background: #3C3B3F;  /* fallback for old browsers */
+     background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+     background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ }
+
+ .icon {
+     opacity: 0.5;
+     margin-right: 20px;
+     height: 60px;
+     width: 60px;
+ }
+
+ .footer-head {
+     font-size: 50px;
+     margin-bottom: 20px;
+     font-weight: 600;
+ }

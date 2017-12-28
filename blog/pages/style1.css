@@ -1,0 +1,80 @@
+.hero-container {
+    position: relative;
+    right: 1vw;
+    min-height: 86vh;
+    min-width: 100vw;
+    background: url("../images/hero-bg.jpg") no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.nav-item {
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.navbar-brand {
+    font-family: lobster;
+}
+
+.hero-text {
+ color: rgb(71, 69, 69);
+ font-weight: 600;
+ font-size: 80px;
+ padding-top: 20%;
+ font-family: lobster;
+
+}
+
+
+.hero-para{
+color: rgb(80, 76, 77);
+font-weight: 600;
+font-size: 250%;
+padding-top: 5%;
+font-family: lobster;
+
+}
+
+.blog-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.blog-title {
+    margin-top: 10px;
+    font-family: lobster;
+    font-size: 60px;
+}
+.blog-content {
+    margin-top: 30px;
+}
+
+.image{
+    height: 300px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+
+.footer {
+    padding-bottom: 10px;
+    background-size: cover;
+    background: #3C3B3F;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #605C3C, #3C3B3F);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #605C3C, #3C3B3F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.icon {
+    opacity: 0.5;
+    margin-right: 20px;
+    height: 60px;
+    width: 60px;
+}
+
+.footer-head {
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
